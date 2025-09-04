@@ -38,7 +38,7 @@ const MenuList = ()=>{
 
 
     const getQuantity = (itemId)=>{
-        const item = cart.find((i)=> i.idf === itemId);
+        const item = cart.find((i)=> i.id === itemId);
         return item ? item.quantity : 0;
     }
 
