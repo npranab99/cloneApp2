@@ -42,28 +42,31 @@ const MenuList = ()=>{
         return item ? item.quantity : 0;
     }
 
+    return (
+  <div>
+    <h2>{resName}</h2>
+    <h3>Menu List</h3>
+    {menuItem.map((item, index) => (
+      <div className="menu-item" key={index}>
+        <h4>{item.name}</h4>
+        <p>Price: ${item.price}</p>
+        <p>Category: {item.category}</p>
 
-
-
-
-    return(
         <div>
-        <h2>{resName}</h2>
-        <h3>Menu List</h3>
-        {menuItem.map((item, index)=>(
-            <div className="menu-item">
-                <h4>{item.name}</h4>
-                <p>Price: ${item.price}</p>
-                <p>Category: {item.category}</p>
-                
-            </div>
-        ))}
-         <div>
-            <button onClick={()=> dispatch(addToCart(item))}>+</button>
-            <button onClick={()=>()=>dispatch(removeFromCart(item.id))} disabled={getQuantity(item.id)=== 0 }>-</button>
+          <button onClick={() => dispatch(addToCart(item))}>+</button>
+          <button
+            onClick={() => dispatch(removeFromCart(item.id))}
+            disabled={getQuantity(item.id) === 0}
+          >
+            -
+          </button>
+          <span>Quantity: {getQuantity(item.id)}</span>
         </div>
-        </div>
-    )
+      </div>
+    ))}
+  </div>
+);
+
 
 }
 
