@@ -1,0 +1,124 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Pizza Palace",
+      "cuisine": "Italian",
+      "rating": 4.5,
+      "deliveryTime": "30 mins",
+      "menu": [
+        { "id": 101, "name": "Margherita Pizza", "price": 299, "category": "Veg" },
+        { "id": 102, "name": "Pepperoni Pizza", "price": 399, "category": "Non-Veg" },
+        { "id": 103, "name": "Garlic Bread", "price": 149, "category": "Veg" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Biryani Hub",
+      "cuisine": "Indian",
+      "rating": 4.3,
+      "deliveryTime": "25 mins",
+      "menu": [
+        { "id": 201, "name": "Chicken Biryani", "price": 249, "category": "Non-Veg" },
+        { "id": 202, "name": "Veg Biryani", "price": 199, "category": "Veg" },
+        { "id": 203, "name": "Mutton Biryani", "price": 349, "category": "Non-Veg" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Fresh Basket",
+      "cuisine": "Grocery",
+      "rating": 4.6,
+      "deliveryTime": "40 mins",
+      "menu": [
+        { "id": 301, "name": "Apples (1kg)", "price": 120, "category": "Fruit" },
+        { "id": 302, "name": "Bananas (1 dozen)", "price": 60, "category": "Fruit" },
+        { "id": 303, "name": "Milk (1L)", "price": 50, "category": "Dairy" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Burger Hub",
+      "cuisine": "Fast Food",
+      "rating": 4.2,
+      "deliveryTime": "20 mins",
+      "menu": [
+        { "id": 401, "name": "Veg Burger", "price": 120, "category": "Veg" },
+        { "id": 402, "name": "Chicken Burger", "price": 180, "category": "Non-Veg" },
+        { "id": 403, "name": "French Fries", "price": 99, "category": "Snack" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sushi World",
+      "cuisine": "Japanese",
+      "rating": 4.7,
+      "deliveryTime": "35 mins",
+      "menu": [
+        { "id": 501, "name": "Salmon Sushi", "price": 399, "category": "Non-Veg" },
+        { "id": 502, "name": "Veg Sushi Roll", "price": 299, "category": "Veg" },
+        { "id": 503, "name": "Miso Soup", "price": 149, "category": "Soup" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Taco Town",
+      "cuisine": "Mexican",
+      "rating": 4.4,
+      "deliveryTime": "30 mins",
+      "menu": [
+        { "id": 601, "name": "Veg Taco", "price": 120, "category": "Veg" },
+        { "id": 602, "name": "Chicken Taco", "price": 180, "category": "Non-Veg" },
+        { "id": 603, "name": "Nachos", "price": 150, "category": "Snack" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Pasta Point",
+      "cuisine": "Italian",
+      "rating": 4.5,
+      "deliveryTime": "25 mins",
+      "menu": [
+        { "id": 701, "name": "Veg Alfredo Pasta", "price": 299, "category": "Veg" },
+        { "id": 702, "name": "Chicken Pasta", "price": 349, "category": "Non-Veg" },
+        { "id": 703, "name": "Garlic Breadsticks", "price": 149, "category": "Snack" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Tea Time",
+      "cuisine": "Cafe",
+      "rating": 4.3,
+      "deliveryTime": "15 mins",
+      "menu": [
+        { "id": 801, "name": "Green Tea", "price": 50, "category": "Beverage" },
+        { "id": 802, "name": "Black Coffee", "price": 60, "category": "Beverage" },
+        { "id": 803, "name": "Chocolate Muffin", "price": 99, "category": "Snack" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Curry House",
+      "cuisine": "Indian",
+      "rating": 4.4,
+      "deliveryTime": "30 mins",
+      "menu": [
+        { "id": 901, "name": "Paneer Butter Masala", "price": 250, "category": "Veg" },
+        { "id": 902, "name": "Chicken Curry", "price": 300, "category": "Non-Veg" },
+        { "id": 903, "name": "Naan", "price": 50, "category": "Bread" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Grill Master",
+      "cuisine": "BBQ",
+      "rating": 4.6,
+      "deliveryTime": "40 mins",
+      "menu": [
+        { "id": 1001, "name": "Grilled Chicken", "price": 399, "category": "Non-Veg" },
+        { "id": 1002, "name": "Grilled Veggies", "price": 249, "category": "Veg" },
+        { "id": 1003, "name": "BBQ Sauce", "price": 49, "category": "Condiment" }
+      ]
+    }
+  ]
+}
